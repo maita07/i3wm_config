@@ -1,8 +1,8 @@
-Esta es mi modificación mínima para i3wm, espero pueda gustarles.
+# Mi Configuración Minimalista de i3wm en Xubuntu
 
-esta modificación la hice sobre linux xubuntu.
+Esta configuración fue realizada sobre **Linux Xubuntu**. A continuación, detallo el resultado de mi sistema con la herramienta `neofetch`.
 
-$ neofetch 
+```plaintext
             .-/+oossssoo+/-.               maita@ubuntu 
         `:+ssssssssssssssssss+:`           ------------ 
       -+ssssssssssssssssssyyssss+-         OS: Ubuntu 20.04.6 LTS x86_64 
@@ -22,5 +22,5 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Theme: Redmond [GTK2/3]
     .ossssssssssssssssssdMMMNysssso.       Memory: 1725MiB / 3730MiB 
       -+sssssssssssssssssyyyssss+-
         `:+ssssssssssssssssss+:`                                   
-            .-/+oossssoo+/-.                                       
+            .-/+oossssoo+/-.                                 
 
