@@ -1,19 +1,20 @@
 #!/bin/bash
 
-# Set of packages and configurations for I3wm to have everything customized to my liking. It only works for Linux Xubuntu.
+# Set of packages and configurations for i3wm customized to my liking.
+# This script is intended for Xubuntu.
 
-# Necessary packages to install
-sudo apt update && sudo apt install -y feh rofi brightnessctl flameshot fonts-cascadia-code lxappearance
+# Update package lists and install necessary packages
+sudo apt update && sudo apt install -y feh rofi brightnessctl flameshot fonts-dejavu lxappearance
 
-# Necessary permise for brightnessctl work
+# Add current user to the video group for brightness control
 sudo usermod -aG video $USER
 
-# preconfig para el wallpaper
+# Prepare directory for wallpapers
 mkdir -p ~/.config/wallpaper/
-echo "Se creo el directorio de wallpapers."
+echo "Wallpaper directory created."
 cp wallpapers/wallpaper* ~/.config/wallpaper/
-echo "Se copiaron los wallpapers."
+echo "Wallpapers copied."
 
-# Copy the i3 config
+# Ensure the i3 configuration directory exists and copy the config
 cp config ~/.config/i3/
-echo "Se copió la configuración."
+echo "Configuration copied."

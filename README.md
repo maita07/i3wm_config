@@ -1,7 +1,6 @@
-# Mi Configuración Minimalista de i3wm en Xubuntu
+# My Minimalist i3wm Configuration on Xubuntu
 
-Esta configuración fue realizada sobre **Linux Xubuntu**. A continuación, detallo el resultado de mi sistema con la herramienta `neofetch`.
-
+This configuration was created on **Linux Xubuntu**. Below are my system details obtained using the `neofetch` tool:
 ```plaintext
             .-/+oossssoo+/-.               maita@ubuntu 
         `:+ssssssssssssssssss+:`           ------------ 
@@ -22,5 +21,33 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Theme: Redmond [GTK2/3]
     .ossssssssssssssssssdMMMNysssso.       Memory: 1725MiB / 3730MiB 
       -+sssssssssssssssssyyyssss+-
         `:+ssssssssssssssssss+:`                                   
-            .-/+oossssoo+/-.                                 
+            .-/+oossssoo+/-.
+```
 
+## Overview
+
+My configuration focuses on creating an **aesthetic** desktop environment for notebooks with minimal setup. It retains most of the default settings in i3wm, perfect for those who want something visually **pleasing** without adding unnecessary features.
+
+## Installed Packages
+
+The configuration includes the following packages:
+
+- **feh**: Sets the wallpaper.
+- **rofi**: Provides an aesthetic and lightweight application launcher, replacing `dmenu`.
+- **brightnessctl**: Controls screen brightness.
+- **flameshot**: An advanced and user-friendly screenshot tool.
+- **lxappearance**: Tool for configuring the GTK theme and system fonts.
+
+## Wallpapers
+
+You can customize the wallpapers according to your preferences.
+
+`wallpapers`
+
+## Color Scheme
+
+The color scheme used for the i3wm environment is from the Catppuccin GitHub repository. You can check it out here: [Catppuccin i3](https://github.com/catppuccin/i3). If desired, you can change the color scheme with other configurations provided by Catppuccin, which are, in my opinion, some of the simplest and most beautiful options I've found during my experience with the i3wm environment.
+
+---
+
+Feel free to explore and customize this setup to suit your own preferences!
