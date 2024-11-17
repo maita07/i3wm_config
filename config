@@ -243,6 +243,11 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
 # Para establecer un fondo escritorio cada vez que se arranque o rearranque i3. "sudo apt install feh"
 exec_always feh --bg-scale ~/.config/wallpaper/wallpaper1.jpg
+#exec_always feh --bg-scale ~/.config/wallpaper/wallpaper2.jpg
+#exec_always feh --bg-scale ~/.config/wallpaper/wallpaper3.jpg
+#exec_always feh --bg-scale ~/.config/wallpaper/wallpaper4.jpg
+#exec_always feh --bg-scale ~/.config/wallpaper/wallpaper5.jpg
+#exec_always feh --bg-scale ~/.config/wallpaper/wallpaper6.jpg
 
 # Fijamos que la tecla imprimir pantalla sea encargada de realizar capturas de pantalla con la utilidad de XFCE. Una alternatica es usar flameshot
 bindsym Print exec --no-startup-id flameshot gui
