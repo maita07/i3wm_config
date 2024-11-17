@@ -16,5 +16,6 @@ cp wallpapers/wallpaper* ~/.config/wallpaper/
 echo "Wallpapers copied."
 
 # Ensure the i3 configuration directory exists and copy the config
+mkdir -p ~/.config/i3/
 cp config ~/.config/i3/
 echo "Configuration copied."
