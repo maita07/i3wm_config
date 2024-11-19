@@ -4,7 +4,7 @@
 # This script is intended for Xubuntu.
 
 # Update package lists and install necessary packages
-sudo apt update && sudo apt install -y feh rofi brightnessctl flameshot fonts-dejavu lxappearance
+sudo apt update && sudo apt install -y i3 feh rofi brightnessctl flameshot fonts-dejavu lxappearance
 
 # Add current user to the video group for brightness control
 sudo usermod -aG video $USER
