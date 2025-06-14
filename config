@@ -53,9 +53,7 @@ bindsym $mod+Shift+q kill
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # We define the theme and keyboard shortcuts for Rofi. If Rofi is open and we press Shift + left or right arrows, we will get additional functionalities.
-set $rofi_theme "/usr/share/rofi/themes/Arc-Dark.rasi"
-bindsym $mod+d exec rofi -show drun -config $rofi_theme -show-icons -font "DejaVu Sans Mono 12"
-bindsym $mod+Shift+d exec rofi -show window -config $rofi_theme -show-icons
+bindsym $mod+d exec rofi -show drun -config ~/.config/rofi/config.rasi
 
 # Change focus
 bindsym $mod+j focus left
