@@ -10,7 +10,7 @@ configuration {
 }
 
 * {
-    font: FontAwesome 12;
+    font: "FontAwesome 12";
 }
 
 @theme "~/.config/rofi/catppuccin-lavrent-mocha.rasi"
