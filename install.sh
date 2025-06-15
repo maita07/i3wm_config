@@ -27,6 +27,7 @@ cp config_rofi/catppuccin-lavrent-mocha.rasi ~/.config/rofi
 
 # theme
 mkdir -p ~/.themes
+mkdir -p ~/.config/gtk-3.0
 cp -r catppuccin_theme/Catppuccin-Dark-Macchiato ~/.themes
 cp -r catppuccin_theme/Catppuccin-Dark-Macchiato-xhdpi ~/.themes
 cp -r catppuccin_theme/Catppuccin-Dark-Macchiato-hdpi ~/.themes
