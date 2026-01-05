@@ -251,3 +251,8 @@ bindsym Print exec --no-startup-id flameshot gui
 
 # Hide the i3 bar when we consider it appropriate
 bindsym $mod+m bar mode toggle
+
+
+gaps inner 6
+
+exec_always --no-startup-id picom -f

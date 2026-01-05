@@ -27,3 +27,7 @@ cp -r catppuccin_theme/Catppuccin-Dark-Macchiato-xhdpi ~/.themes
 cp -r catppuccin_theme/Catppuccin-Dark-Macchiato-hdpi ~/.themes
 cp catppuccin_theme/settings.ini ~/.config/gtk-3.0/
 cp catppuccin_theme/gtk.css ~/.config/gtk-3.0/
+
+# picom
+mkdir -p ~/.config/picom
+cp config_picom/picom.conf ~/.config/picom
