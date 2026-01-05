@@ -3,12 +3,6 @@
 # Set of packages and configurations for i3wm customized to my liking.
 # This script is intended for Debian 12.
 
-# Update package lists and install necessary packages
-sudo apt update && sudo apt install -y i3 feh rofi brightnessctl gtk2-engines-murrine flameshot fonts-dejavu lxappearance
-
-# Add current user to the video group for brightness control
-sudo usermod -aG video $USER
-
 # Prepare directory for wallpapers
 mkdir -p ~/.config/wallpaper/
 echo "Wallpaper directory created."
