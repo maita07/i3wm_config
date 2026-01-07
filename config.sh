@@ -31,3 +31,8 @@ cp catppuccin_theme/gtk.css ~/.config/gtk-3.0/
 # picom
 mkdir -p ~/.config/picom
 cp config_picom/picom.conf ~/.config/picom
+
+# i3status
+mkdir -p ~/.config/i3status
+cp i3status/config ~/.config/i3status
+
