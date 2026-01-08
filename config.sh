@@ -36,3 +36,6 @@ cp config_picom/picom.conf ~/.config/picom
 mkdir -p ~/.config/i3status
 cp i3status/config ~/.config/i3status
 
+# fastfetch
+mkdir -p ~/.config/fastfetch
+cp fastfetch/config.jsonc ~/.config/fastfetch

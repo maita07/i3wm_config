@@ -3,7 +3,7 @@
 # Set of packages and configurations for i3wm customized to my liking.
 
 # Update package lists and install necessary packages
-sudo apt update && sudo apt install -y i3 feh rofi gtk2-engines-murrine flameshot fonts-dejavu lxappearance picom
+sudo apt update && sudo apt install -y i3 feh rofi gtk2-engines-murrine flameshot fonts-dejavu lxappearance picom fastfetch
 
 while true; do
     read -p "¿Quiere instalar brightnessctl? (notebooks) [s/n]: " respuesta
