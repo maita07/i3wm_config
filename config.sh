@@ -6,7 +6,7 @@
 # Prepare directory for wallpapers
 mkdir -p ~/.config/wallpaper/
 echo "Wallpaper directory created."
-cp wallpapers/wallpaper* ~/.config/wallpaper/
+cp wallpapers/* ~/.config/wallpaper/
 echo "Wallpapers copied."
 
 # Ensure the i3 configuration directory exists and copy the config
